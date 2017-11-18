@@ -25,16 +25,12 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));
-background-color: rgb(153, 153, 153);</string>
-  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="Open">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
+      <x>14</x>
+      <y>12</y>
       <width>121</width>
       <height>51</height>
      </rect>
@@ -46,9 +42,6 @@ background-color: rgb(153, 153, 153);</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 185, 185);</string>
     </property>
     <property name="text">
      <string>OPEN</string>
@@ -70,9 +63,6 @@ background-color: rgb(153, 153, 153);</string>
       <bold>true</bold>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -82,7 +72,7 @@ background-color: rgb(153, 153, 153);</string>
      <rect>
       <x>490</x>
       <y>80</y>
-      <width>201</width>
+      <width>151</width>
       <height>51</height>
      </rect>
     </property>
@@ -92,9 +82,6 @@ background-color: rgb(153, 153, 153);</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 185, 185);</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -105,7 +92,7 @@ background-color: rgb(153, 153, 153);</string>
      <rect>
       <x>490</x>
       <y>150</y>
-      <width>201</width>
+      <width>151</width>
       <height>51</height>
      </rect>
     </property>
@@ -116,9 +103,6 @@ background-color: rgb(153, 153, 153);</string>
       <bold>true</bold>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 185, 185);</string>
-    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -127,7 +111,7 @@ background-color: rgb(153, 153, 153);</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:18pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="Min">
@@ -135,7 +119,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>490</x>
       <y>220</y>
-      <width>201</width>
+      <width>151</width>
       <height>51</height>
      </rect>
     </property>
@@ -146,9 +130,6 @@ p, li { white-space: pre-wrap; }
       <bold>true</bold>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 185, 185);</string>
-    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -157,7 +138,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:18pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -239,9 +220,6 @@ p, li { white-space: pre-wrap; }
       <bold>true</bold>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 185, 185);</string>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
@@ -259,9 +237,6 @@ p, li { white-space: pre-wrap; }
       <weight>75</weight>
       <bold>true</bold>
      </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 185, 185);</string>
     </property>
     <property name="text">
      <string>Open Packet</string>
@@ -283,9 +258,6 @@ p, li { white-space: pre-wrap; }
       <bold>true</bold>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
     <property name="html">
      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -301,7 +273,7 @@ p, li { white-space: pre-wrap; }
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

@@ -21,7 +21,6 @@ public:
     ~Sniffer();
 
 private slots:
-    void
     on_Open_clicked();
 
     void on_pushButton_clicked();
@@ -56,6 +55,7 @@ public:
     PcapFHeader fHeader;
     QList <Pop> ALLpackets;
 };
+
 
 
 #endif // SNIFFER_H
